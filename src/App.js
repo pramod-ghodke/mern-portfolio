@@ -17,6 +17,7 @@ import react from './Assets/react.png';
 import node from './Assets/node.png';
 import mongo from './Assets/mongo.png';
 import github from './Assets/github.png';
+import resume from './Assets/mern-resume.pdf';
 
 
 function App() {
@@ -126,7 +127,7 @@ function App() {
    <Row>
     <h1 className='text-center'>MY RESUME</h1>
     <Col className="text-center">
-     <Button href="www.pramodghodke.netlify.app" target="_blank">Download Resume</Button>
+     <Button href={resume} target="_blank">Download Resume</Button>
     </Col>
    </Row>
 </Container>
